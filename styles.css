@@ -258,7 +258,6 @@ p {
 }
 
 .ch4 {
-
     padding-top: 10px;
 }
 
@@ -317,8 +316,16 @@ p {
     font-size: 10px;
 }
 
-.active-btn :hover{
+.early-btn:hover,
+.early-access-btn:hover, 
+.top-btn:hover,
+.vault-btn:hover,
+.working-btn:hover
 
-    opacity: 0.8;
+{
+    
+    opacity: 0.7;
     transition: all 0.3s ease;
+    scale: 1.1;
+
 }
